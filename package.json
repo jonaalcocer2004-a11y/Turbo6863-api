@@ -1,14 +1,11 @@
-const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 3000;
-
-app.get('/', (req, res) => {
-  res.json({
-    status: 'Live 6863',
-    message: 'Turbo6863-api funcionando 🚀'
-  });
-});
-
-app.listen(PORT, () => {
-  console.log(`Servidor Live 6863 en puerto ${PORT}`);
-});
+{
+  "name": "turbo6863-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
