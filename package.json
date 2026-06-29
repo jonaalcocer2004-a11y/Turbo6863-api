@@ -1,9 +1,14 @@
 {
   "name": "turbo6863-api",
   "version": "1.0.0",
+  "description": "API Turbo 6863 con Supabase y MercadoPago",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.x"
   },
   "dependencies": {
     "express": "^4.18.2",
