@@ -1,4 +1,14 @@
-   "scripts": {
-     "start": "node server.js",
-     "build": "npm install"
-   },
+{
+  "name": "turbo6863-api",
+  "version": "1.0.0",
+  "description": "API para bot Turbo6863",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  }
+}
