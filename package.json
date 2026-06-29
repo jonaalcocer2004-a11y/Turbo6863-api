@@ -1,16 +1,16 @@
 {
   "name": "nexus-9-cedis",
   "version": "1.0.0",
-  "description": "NEXUS app",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
     "socket.io": "^4.7.2",
     "sqlite3": "^5.1.6",
-    "bcryptjs": "^2.4.3"
+    "bcryptjs": "^2.4.3",
+    "@supabase/supabase-js": "^2.39.0"
   }
 }
